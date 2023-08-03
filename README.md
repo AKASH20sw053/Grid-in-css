@@ -3,24 +3,7 @@ In CSS (Cascading Style Sheets), you can create a grid layout using the CSS Grid
 
 Here's a basic example of how to create a grid layout in CSS:
 
-#Html code
-<div class="grid-container">
-  <div class="item">Item 1</div>
-  <div class="item">Item 2</div>
-  <div class="item">Item 3</div>
-  <div class="item">Item 4</div>
-</div>
 
-#Css Code
-.grid-container {
-  display: grid;
-  grid-template-columns: 1fr 1fr 1fr; /* Three equal-width columns */
-  grid-gap: 10px; /* Gap between grid items */
-}
-.item {
-  background-color: #ccc;
-  padding: 20px;
-}
 In this example, we define a container with the class grid-container, 
 which will be the parent element of the grid items. We use display:
 grid to create the grid layout.The grid-template-columns property sets the width of the columns in the grid. 
